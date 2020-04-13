@@ -1,7 +1,7 @@
-#include "problem6.cpp"
+#include "problem3.cpp"
 
 int main(){
 
-	problem6();      
+	problem3();      
 	return 0;
 }
