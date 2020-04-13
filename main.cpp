@@ -1,9 +1,9 @@
-#include "problem2.cpp"
+#include "problem7.cpp"
 
 using namespace std;
 
 int main(){
 
-	problem2();      
+	problem7();      
 	return 0;
 }
