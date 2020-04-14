@@ -4,10 +4,11 @@
 
 using namespace std;
 
-const long int N = 600851475143;
+const long int N = 600851475143;	//need long for __int64
 const int size=10000;	//increase to find more primes
-bool P[size];
+bool P[size];	//prime determiner up to number [size]
 
+// sieve of Eratosthenes to find primes
 void sieve(){
 	for(int i=2;i*i<=size;i++)
 		if(P[i]==1)
@@ -42,4 +43,7 @@ void problem3(){
 		}
 	}
 
+	//steps of prime factorization
+	//displays prime factor and remainder, in accending order
+	//last row is largest prime factor, and 1
 }
