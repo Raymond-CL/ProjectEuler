@@ -5,6 +5,6 @@
 
 int main(){
 
-	problem3();      
+	problem6();      
 	return 0;
 }
