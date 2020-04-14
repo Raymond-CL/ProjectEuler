@@ -3,7 +3,7 @@
 using namespace std;
 
 const int N=150000;	//increase if not enough primes
-bool P[N];
+bool P[N];	//prime determiner up to number [N]
 
 //sieve of Eratosthenes to find primes
 void sieve(){
