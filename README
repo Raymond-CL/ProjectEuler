@@ -1,2 +1,12 @@
-some solutions to problems in Project Euler
+Some solutions to problems in Project Euler
 https://projecteuler.net
+
+Story:
+- I was doing my masters in pure mathematics back in 2010 when I got to know about the project.
+- then there was this hack on the site some time later and I lost all my progress and account.
+- now in 2020, while doing a doctorate in theoretical physics, I decided to revisit the problems
+to pick up the maths stuff that I once dropped. Hopefully I remember.
+- and with the power of github, I can save my progress now.
+- The solutions will be in C++, minimal. One that doesn't involve too much compiler directives.
+- One can find many solutions in github, I'll try my best to solve a problem on my own before 
+searching for others' methods. If it gets too difficult in C++, I might use other languages.
