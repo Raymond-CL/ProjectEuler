@@ -8,6 +8,7 @@ void problem2(){
 	int a=1, b=2, c=a+b;
 	int sum=0;
 
+	// note that even Fibonacci appears every 3 numbers
     while(b<max){
         sum+=b;
 		a=b+c;
