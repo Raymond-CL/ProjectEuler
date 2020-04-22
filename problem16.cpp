@@ -2,21 +2,28 @@
 
 using namespace std;
 
-const int N=20;
-long int M[N+1];
+const int N=1000;
+long int M[N/2];
 
-//use Pascal's triangle method
-void problem15(){
+void problem16(){
 
-    for(int i=0;i<=N;i++)
-        M[i]=1;
+    for(int i=0;i<N/2;i++)
+        M[i]=0;
+    M[0] = 1;
 
-    for(int j=0;j<N;j++)
-      for(int i=0;i<=N;i++)
-        if(i==0)
-            M[i]=M[i];
-        else
-            M[i]=M[i-1]+M[i];
+    //brute force iterative
+    for(int j=0;j<N;j++){
+      int carry=0;
+      for(int i=0;i<N/2;i++){
+        int temp = M[i]*2+carry;
+        M[i] = temp%10;
+        carry = temp/10;
+      }
+    }
 
-    cout << M[N] << endl;
+    int sum=0;
+    for(int i=0;i<N/2;i++)
+        sum += M[i];
+
+    cout << sum << endl;
 }
