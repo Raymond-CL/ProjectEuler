@@ -19,5 +19,7 @@ algorithm, and C-language gives a good presentation of that logic. Once the algo
 one can rewrite it in any other language.
 - The solutions will be in minimal style. One that doesn't involve too much compiler directives,
 without useless arguments, and no pointers. Necessary comments will be given as well.
+- I will try to write a generalized solution as well, one that would require minimum change if
+the problem changes its parameters. (Because that's what good programs do!)
 - One can find many solutions in github, I'll try my best to solve a problem on my own before 
 searching for others' methods.
