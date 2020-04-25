@@ -17,6 +17,9 @@ transparent, and doesn't require class or functional knowledge like the other.
 particular problem with an efficient algorithm. And the emphasis here is the efficiency of your
 algorithm, and C-language gives a good presentation of that logic. Once the algorithm is understood,
 one can rewrite it in any other language.
+- And sometimes, you might discover properties and identities in number theory that you haven't
+even heard of, and using them greatly enhances your efficiency. (Then you start to realize:
+Oh, so that's what Mathematicians are for.)
 - The solutions will be in minimal style. One that doesn't involve too much compiler directives,
 without useless arguments, and no pointers. Necessary comments will be given as well.
 - I will try to write a generalized solution as well, one that would require minimum change if
